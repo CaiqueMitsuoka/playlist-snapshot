@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get '/auth/spotify/callback', to: 'users#create'
 
-  resources :snapshots, only: :new
+  resources :snapshots, only: [:create, :new]
 end

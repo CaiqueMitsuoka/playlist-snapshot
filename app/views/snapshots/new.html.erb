@@ -1,1 +1,5 @@
-EAE
+<%= form_tag(snapshots_path) do %>
+  <%= label_tag(:uri, "Playlist URI") %>
+  <%= text_field_tag(:uri) %>
+  <%= submit_tag("COPY!") %>
+<% end %>

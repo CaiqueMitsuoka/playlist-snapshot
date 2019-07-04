@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'rspotify'
+gem 'omniauth-oauth2', '~> 1.3.1'
 
 group :development, :test do
   gem 'dotenv-rails', groups: [:development, :test]
